@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dia"
+        android:icon="@android:ic_menu_today"
+        android:title="Día" />
+    <item
+        android:id="@+id/nav_etiquetas"
+        android:icon="@android:ic_menu_agenda"
+        android:title="Etiquetas" />
+    <item
+        android:id="@+id/nav_sistema"
+        android:icon="@android:ic_menu_manage"
+        android:title="Sistema" />
+    <item
+        android:id="@+id/nav_frases"
+        android:icon="@android:ic_menu_slideshow"
+        android:title="Frases" />
+    <item
+        android:id="@+id/nav_stats"
+        android:icon="@android:ic_menu_sort_by_size"
+        android:title="Stats" />
+</menu>
