@@ -38,10 +38,12 @@
     </LinearLayout>
 
     <!-- Contenedor de la sección Etiquetas -->
-    <View
+    <LinearLayout
         android:id="@+id/view_etiquetas"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
@@ -49,10 +51,12 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Contenedor de la sección Sistema -->
-    <View
+    <LinearLayout
         android:id="@+id/view_sistema"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
@@ -60,10 +64,12 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Contenedor de la sección Frases -->
-    <View
+    <LinearLayout
         android:id="@+id/view_frases"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
@@ -71,10 +77,12 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Contenedor de la sección Stats -->
-    <View
+    <LinearLayout
         android:id="@+id/view_stats"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
