@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="#0B0F19">
 
-    <!-- Contenedor de la sección Día -->
+    <!-- Sección Día -->
     <LinearLayout
-        android:id="@+id/view_dia"
+        android:id="@+id/nav_dia"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -37,9 +37,9 @@
             android:textSize="14sp" />
     </LinearLayout>
 
-    <!-- Contenedor de la sección Etiquetas -->
+    <!-- Sección Etiquetas -->
     <LinearLayout
-        android:id="@+id/view_etiquetas"
+        android:id="@+id/nav_etiquetas"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -50,9 +50,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Contenedor de la sección Sistema -->
+    <!-- Sección Sistema -->
     <LinearLayout
-        android:id="@+id/view_sistema"
+        android:id="@+id/nav_sistema"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -63,9 +63,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Contenedor de la sección Frases -->
+    <!-- Sección Frases -->
     <LinearLayout
-        android:id="@+id/view_frases"
+        android:id="@+id/nav_frases"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -76,9 +76,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Contenedor de la sección Stats -->
+    <!-- Sección Stats -->
     <LinearLayout
-        android:id="@+id/view_stats"
+        android:id="@+id/nav_stats"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
