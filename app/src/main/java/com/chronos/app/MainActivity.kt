@@ -2,7 +2,6 @@ package com.chronos.app
 
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -19,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Inicializar vistas con los IDs nav_ correctos
+        // Inicializar vistas con los IDs de los contenedores
         navDia = findViewById(R.id.nav_dia)
         navEtiquetas = findViewById(R.id.nav_etiquetas)
         navSistema = findViewById(R.id.nav_sistema)
@@ -29,24 +28,24 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
-                // Asegúrate de que los IDs del menú inferior coincidan con estos
-                R.id.menu_dia -> {
+                // IDs corregidos que coinciden exactamente con bottom_nav_menu.xml
+                R.id.nav_dia -> {
                     showSection(navDia)
                     true
                 }
-                R.id.menu_etiquetas -> {
+                R.id.nav_etiquetas -> {
                     showSection(navEtiquetas)
                     true
                 }
-                R.id.menu_sistema -> {
+                R.id.nav_sistema -> {
                     showSection(navSistema)
                     true
                 }
-                R.id.menu_frases -> {
+                R.id.nav_frases -> {
                     showSection(navFrases)
                     true
                 }
-                R.id.menu_stats -> {
+                R.id.nav_stats -> {
                     showSection(navStats)
                     true
                 }
