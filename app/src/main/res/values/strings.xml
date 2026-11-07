@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chronos System</string>
+    <string name="title_24h_timer">TEMPORIZADOR PROGRESIVO DEL DÍA (24 HORAS)</string>
+    <string name="midnight_reset">Reinicio del día en</string>
+    <string name="hunter_system_window">VENTANA DEL SISTEMA DE CAZADOR</string>
+    <string name="daily_quests">MISIONES DIARIAS DEL SISTEMA</string>
+    <string name="stats_attributes">ESTADÍSTICAS Y ATRIBUTOS</string>
+</resources>
