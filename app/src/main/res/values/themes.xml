@@ -1,7 +1,7 @@
-<resources>
-    <style name="Theme.ChronosSystem" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:windowBackground">@color/bg_dark</item>
-        <item name="android:statusBarColor">@color/bg_dark</item>
-        <item name="android:navigationBarColor">@color/bg_dark</item>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.ChronosSystem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- <item name="colorPrimary">@color/my_primary</item> -->
     </style>
 </resources>
