@@ -24,16 +24,19 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_etiquetas -> {
-                    // Crea y carga tu otro Fragment aquí
+                    loadFragment(EtiquetasFragment())
                     true
                 }
                 R.id.nav_sistema -> {
+                    loadFragment(SistemaFragment())
                     true
                 }
                 R.id.nav_frases -> {
+                    loadFragment(FrasesFragment())
                     true
                 }
                 R.id.nav_stats -> {
+                    loadFragment(StatsFragment())
                     true
                 }
                 else -> false
